@@ -7,6 +7,20 @@ Version 2.21.0
 ---------------
 (not released yet)
 
+- New lexers:
+
+  * BitBake (#3103)
+  * CEL (#3048)
+  * PureScript (#1077, #3054)
+
+- Updated lexers:
+
+  * C++: Add C23/C++26 attributes (#3084)
+
+- Fix catastrophic backtracking in ``looks_like_xml`` (#2931, #3112)
+- Improve monokai theme colors (#3100)
+- Improve handling of non-string types in ``html_escape`` to fix broken clients (#3090, #3086)
+
 Version 2.20.0
 --------------
 (released March 29th, 2026)
@@ -423,7 +437,7 @@ Version 2.14.0
 
     - Fix an issue where a chunk would be wrongly recognized as a function
       definition due to braces in comments (#2210)
-    - Improve parantheses handling for function definitions (#2207, #2208)
+    - Improve parentheses handling for function definitions (#2207, #2208)
 
   * C#: Fix number and operator recognition (#2256, #2257)
   * CSound: Updated builtins (#2268)
