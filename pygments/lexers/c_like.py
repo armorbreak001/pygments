@@ -274,7 +274,7 @@ class ValaLexer(RegexLexer):
     }
 
 
-class CudaLexer(CLexer):
+class CudaLexer(CppLexer):
     """
     For NVIDIA CUDA™ source.
     """
